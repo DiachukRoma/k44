@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "rn-test",
-    "slug": "rn-test",
+    "name": "k44",
+    "slug": "k44",
+    "description": "App for church Karjerna 44",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +16,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.romandiachuk.k44"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.romandiachuk.k44"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4022958-3e3f-4807-8e4f-ce10e55a6cea"
+      }
+    },
+    "owner": "romandiachuk"
   }
 }

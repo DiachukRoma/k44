@@ -10,7 +10,7 @@ export default function Home() {
 			<YoutubePlayer
 				width={screenWidth}
 				height={300}
-				videoId={"K17hcSlGhow"}
+				videoId={"P05GVDFyYtc"}
 			/>
 		</View>
 	);
