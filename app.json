@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "k44",
+    "name": "Church Karjerna 44",
     "slug": "k44",
     "description": "App for church Karjerna 44",
     "version": "1.0.0",
@@ -34,6 +34,10 @@
         "projectId": "e4022958-3e3f-4807-8e4f-ce10e55a6cea"
       }
     },
-    "owner": "romandiachuk"
+    "owner": "romandiachuk",
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    }
   }
 }
